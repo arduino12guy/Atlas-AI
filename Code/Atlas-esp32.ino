@@ -104,7 +104,7 @@ void printBanner() {
   Serial.println();
   Serial.println(F("  ╔══════════════════════════════════════════════╗"));
   Serial.println(F("  ║                                                      ║"));
-  Serial.println(F("  ║               ✈   ATLAS   A I   ✈                   ║"));
+  Serial.println(F("  ║               ✈   A T L A S   A I   ✈                ║"));
   Serial.println(F("  ║                                                      ║"));
   Serial.println(F("  ║  ┌────────────────────────────────────────┐  ║"));
   Serial.println(F("  ║  │  Model   : LLaMA-3.3-70B  (Groq)               │  ║"));
