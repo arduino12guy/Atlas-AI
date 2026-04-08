@@ -151,7 +151,7 @@ void printResult(const PlaceInfo& p) {
 // ═══════════════════════════════════════════════════════════════
 
 // Standard top header bar (y = 0..34)
-void drawHeader(const char* title = ATLAS AI") {
+void drawHeader(const char* title = "ATLAS AI") {
   tft.fillRect(0, 0, SCR_W, 34, C_CARD);
   tft.fillRect(0, 0, 4, 34, C_ACCENT);       // left accent stripe
   tft.drawFastHLine(0, 34, SCR_W, C_ACCENT); // bottom line
