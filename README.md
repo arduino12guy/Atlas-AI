@@ -5,7 +5,7 @@ Ask it about any place on Earth. Get back everything you need to know — instan
 
 ```
   ╔══════════════════════════════════════════════╗
-  ║   ✈   A T L A S   A I   ·   v 1 . 0   ✈   ║
+  ║   ✈   A T L A S   A I   ·   v 1 . 0   ✈              ║
   ╚══════════════════════════════════════════════╝
 ```
 
