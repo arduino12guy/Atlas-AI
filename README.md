@@ -3,11 +3,7 @@
 
 Ask it about any place on Earth. Get back everything you need to know — instantly.
 
-```
-  ╔══════════════════════════════════════════════╗
-  ║   ✈   A T L A S   A I   ·   v 1 . 0   ✈              ║
-  ╚══════════════════════════════════════════════╝
-```
+![Boot screen](images/20260408_102139.jpg)
 
 ---
 
@@ -16,6 +12,8 @@ Ask it about any place on Earth. Get back everything you need to know — instan
 Type a place name. Atlas AI connects to Groq's cloud inference API, runs Meta's LLaMA-3.3-70B model, and displays a clean travel card on a 2.4" TFT screen in under 5 seconds.
 
 No app. No phone. No subscription.
+
+![Result screen - Tokyo](images/20260408_102607.jpg)
 
 ---
 
@@ -53,11 +51,11 @@ No app. No phone. No subscription.
 - `TFT_eSPI` by Bodmer
 - `ArduinoJson` by Benoit Blanchon (v7+)
 
-**3. Get a free Groq API key**
+**2. Get a free Groq API key**
 
 → [console.groq.com](https://console.groq.com)
 
-**4. Fill in your credentials**
+**3. Fill in your credentials**
 
 ```cpp
 const char* WIFI_SSID    = "YOUR_WIFI_SSID";
@@ -65,7 +63,7 @@ const char* WIFI_PASS    = "YOUR_WIFI_PASSWORD";
 const char* GROQ_API_KEY = "YOUR_GROQ_API_KEY";
 ```
 
-**5. Flash**
+**4. Flash**
 
 - Board: `ESP32 Dev Module`
 - Baud: `115200`
@@ -74,6 +72,22 @@ const char* GROQ_API_KEY = "YOUR_GROQ_API_KEY";
 ---
 
 ## Usage
+
+Power on. The device boots, then connects to WiFi:
+
+![WiFi connecting](images/20260408_102504.jpg)
+
+Once connected, the ready screen appears:
+
+![Ready screen](images/20260408_102529.jpg)
+
+Type any place name in Serial Monitor and hit Enter. While it fetches the response:
+
+![Loading spinner](images/20260408_102600.jpg)
+
+Then the travel card appears:
+
+![Travel card - Delhi](images/20260408_102607.jpg)
 
 ```
 Enter place name:
@@ -124,4 +138,4 @@ ESP32  →  WiFi  →  Groq API  →  LLaMA-3.3-70B
 
 ---
 
-*Built by [arduino_guy](https://www.instructables.com/member/arduino12guy/) ·
+*Built by [arduino_guy](https://www.instructables.com/member/arduino12guy/)*
