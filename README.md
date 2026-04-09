@@ -37,10 +37,11 @@ No app. No phone. No subscription.
 |-----|-------|
 | VCC | 3.3V |
 | GND | GND |
-| CS | GPIO 15 |
-| RESET | GPIO 4 |
-| DC | GPIO 2 |
+| CS | GPIO 17 |
+| RESET | GPIO 5 |
+| DC | GPIO 16 |
 | MOSI | GPIO 23 |
+| MISO | GPIO 19 |
 | SCK | GPIO 18 |
 | LED | 3.3V |
 
