@@ -3,7 +3,7 @@
 
 Ask it about any place on Earth. Get back everything you need to know — instantly.
 
-![Boot screen](images/20260408_102458.jpg)
+![Boot screen](Images/20260408_102458.jpg)
 
 ---
 
@@ -13,7 +13,7 @@ Type a place name. Atlas AI connects to Groq's cloud inference API, runs Meta's 
 
 No app. No phone. No subscription.
 
-![Result screen - Tokyo](images/20260408_102139.jpg)
+![Result screen - Tokyo](Images/20260408_102139.jpg)
 
 ---
 
@@ -75,19 +75,19 @@ const char* GROQ_API_KEY = "YOUR_GROQ_API_KEY";
 
 Power on. The device boots, then connects to WiFi:
 
-![WiFi connecting](images/20260408_102504.jpg)
+![WiFi connecting](Images/20260408_102504.jpg)
 
 Once connected, the ready screen appears:
 
-![Ready screen](images/20260408_102529.jpg)
+![Ready screen](Images/20260408_102529.jpg)
 
 Type any place name in Serial Monitor and hit Enter. While it fetches the response:
 
-![Loading spinner](images/20260408_102600.jpg)
+![Loading spinner](Images/20260408_102600.jpg)
 
 Then the travel card appears:
 
-![Travel card - Delhi](images/20260408_102607.jpg)
+![Travel card - Delhi](Images/20260408_102607.jpg)
 
 ```
 Enter place name:
