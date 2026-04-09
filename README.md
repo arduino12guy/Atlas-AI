@@ -5,6 +5,7 @@ Ask it about any place on Earth. Get back everything you need to know — instan
 
 ![Boot screen](Images/20260408_102458.jpg)
 
+My full 
 ---
 
 ## What It Does
@@ -138,4 +139,4 @@ ESP32  →  WiFi  →  Groq API  →  LLaMA-3.3-70B
 
 ---
 
-*Built by [arduino_guy](https://www.instructables.com/member/arduino12guy/)*
+*Built by [arduino_guy](https://www.instructables.com/member/arduino12guy/) · [See full project on Instructables](https://www.instructables.com/ATLAS-AI-Travel-Guide/)*
