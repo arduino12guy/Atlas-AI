@@ -3,7 +3,7 @@
 
 Ask it about any place on Earth. Get back everything you need to know — instantly.
 
-![Boot screen](images/20260408_102139.jpg)
+![Boot screen](images/20260408_102458.jpg)
 
 ---
 
@@ -13,7 +13,7 @@ Type a place name. Atlas AI connects to Groq's cloud inference API, runs Meta's 
 
 No app. No phone. No subscription.
 
-![Result screen - Tokyo](images/20260408_102607.jpg)
+![Result screen - Tokyo](images/20260408_102139.jpg)
 
 ---
 
